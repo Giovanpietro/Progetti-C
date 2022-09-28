@@ -20,8 +20,10 @@ int main(){
     somma=a+b+c;
     media=somma/3;
     prodotto=a*b*c;
-
-    printf("\n");
+    
+    printf("La somma e': %d\n", somma);
+    printf("La media e': %d\n", media);
+    printf("Il prodotto e': %d\n", prodotto);
 
     if(a>b && a>c){
         printf("%d e' maggiore\n", a);
@@ -38,8 +40,6 @@ int main(){
         printf("%d e' minore\n", c);
     }
 
-    printf("La somma e': %d\n", somma);
-    printf("La media e': %d\n", media);
-    printf("Il prodotto e': %d\n", prodotto);
+    
 
 }
