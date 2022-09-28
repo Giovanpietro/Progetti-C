@@ -1,3 +1,6 @@
+/* Scrivete un programma che legga un numero intero
+e determini e stampi se sia dispari o pari */
+
 #include <stdio.h>
 
 int main(){
